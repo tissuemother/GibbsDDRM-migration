@@ -34,7 +34,7 @@ cmake --build build --parallel 1
 ctest --test-dir build --output-on-failure
 ```
 
-In the prepared Codex environment, use
+In the prepared environment, use
 `export PATH=/workspace/.cloud-tools/cpp/bin:$PATH` instead of creating a venv.
 The three CTest checks passed. Small CPU fixtures produced a maximum absolute
 image difference of approximately `1.91e-6` against the original Python calculations.
